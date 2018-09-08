@@ -1,0 +1,23 @@
+{
+  "name": "next-example",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "workspaces": ["*"],
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^7.0.0-canary.7",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/plugin-proposal-do-expressions": "7.0.0-rc.1",
+    "@babel/plugin-proposal-decorators": "^7.0.0"
+  }
+}
